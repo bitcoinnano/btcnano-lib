@@ -1,0 +1,30 @@
+{
+  "name": "btcnano-lib",
+  "main": "./btcnano-lib.min.js",
+  "version": "0.1.0",
+  "homepage": "http://bitcore.io",
+  "authors": [
+    "Btcnano, Inc."
+  ],
+  "description": "A pure, powerful core for your btcnano project.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcore",
+    "btn",
+    "satoshi"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "CONTRIBUTING.md",
+    "gulpfile.js",
+    "lib",
+    "index.js",
+    "karma.conf.js",
+    "npm-shrinkwrap.json",
+    "test"
+  ]
+}
