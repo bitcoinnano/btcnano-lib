@@ -31,7 +31,7 @@ Take a look at this modified snippet from [networks.js](https://github.com/bitco
 ```javascript
 var livenet = new Network();
 _.extend(livenet, {
-  name: 'livenet',
+  name: 'main',
   alias: 'mainnet',
   pubkeyhash: 0x00,
   privatekey: 0x80,

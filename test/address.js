@@ -30,12 +30,12 @@ describe('Address', function() {
   it('should throw an error because of bad network param', function() {
     (function() {
       return new Address(PKHLivenet[0], 'main', 'pubkeyhash');
-    }).should.throw('Second argument must be "livenet" or "testnet".');
+    }).should.throw('Second argument must be "main" or "testnet".');
   });
 
   it('should throw an error because of bad type param', function() {
     (function() {
-      return new Address(PKHLivenet[0], 'livenet', 'pubkey');
+      return new Address(PKHLivenet[0], 'main', 'pubkey');
     }).should.throw('Third argument must be "pubkeyhash" or "scripthash"');
   });
 
@@ -49,7 +49,7 @@ describe('Address', function() {
           } else if (d[2].addrType === 'pubkey') {
             type = 'pubkeyhash';
           }
-          var network = 'livenet';
+          var network = 'main';
           if (d[2].isTestnet) {
             network = 'testnet';
           }

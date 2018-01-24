@@ -658,7 +658,7 @@ describe('Script', function() {
     }
   });
   describe('#buildPublicKeyHashOut', function() {
-    it('should create script from livenet address', function() {
+    it('should create script from main address', function() {
       var address = Address.fromString('1NaTVwXDDUJaXDQajoa9MqHhz4uTxtgK14');
       var s = Script.buildPublicKeyHashOut(address);
       should.exist(s);

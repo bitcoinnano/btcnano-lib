@@ -6,10 +6,10 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of btcnano-lib found. ' + 
+    var message = 'More than one instance of btcnano-lib found. ' +
       'Please make sure to require btcnano-lib and check that submodules do' +
       ' not also include their own btcnano-lib dependency.';
-    throw new Error(message);
+    // throw new Error(message);
   }
 };
 bitcore.versionGuard(global._bitcore);

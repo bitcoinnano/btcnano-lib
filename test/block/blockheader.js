@@ -262,14 +262,14 @@ describe('BlockHeader', function() {
       x.getDifficulty().should.equal(86187.62562209);
     });
 
-    it('should get the correct difficulty for livenet block 373043', function() {
+    it('should get the correct difficulty for main block 373043', function() {
       var x = new BlockHeader({
         bits: 0x18134dc1
       });
       x.getDifficulty().should.equal(56957648455.01001);
     });
 
-    it('should get the correct difficulty for livenet block 340000', function() {
+    it('should get the correct difficulty for main block 340000', function() {
       var x = new BlockHeader({
         bits: 0x1819012f
       });
