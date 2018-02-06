@@ -1,6 +1,6 @@
 {
-  "_from": "btcnano-lib@~0.2.1",
-  "_id": "btcnano-lib@0.2.1",
+  "_from": "btcnano-lib@^0.1.0",
+  "_id": "btcnano-lib@0.1.0",
   "_inBundle": false,
   "_integrity": "sha1-4Mo9OBstI2mtHHLuYZ06+zjCRcA=",
   "_location": "/btcnano-lib",
@@ -14,7 +14,7 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "btcnano-lib@~0.2.1",
+    "raw": "btcnano-lib@^0.1.0",
     "name": "btcnano-lib",
     "escapedName": "btcnano-lib",
     "rawSpec": "^0.15.1",
@@ -24,9 +24,9 @@
   "_requiredBy": [
     "/bitcore-wallet-client"
   ],
-  "_resolved": "http://registry.npm.taobao.org/btcnano-lib/download/btcnano-lib-0.2.1.tgz",
+  "_resolved": "http://registry.npm.taobao.org/btcnano-lib/download/btcnano-lib-0.1.0.tgz",
   "_shasum": "e0ca3d381b2d2369ad1c72ee619d3afb38c245c0",
-  "_spec": "btcnano-lib@~0.2.1",
+  "_spec": "btcnano-lib@^0.1.0",
   "_where": "/Users/guolei/Desktop/copay_new/copay/node_modules/btcnano-wallet-client",
   "author": {
     "name": "jack chen",
@@ -87,5 +87,5 @@
     "lint": "gulp lint",
     "test": "gulp test"
   },
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
